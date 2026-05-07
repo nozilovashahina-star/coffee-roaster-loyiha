@@ -169,3 +169,87 @@ input:checked + .sec-2__div--answerblock {
     flex-direction: row;
     gap: 20px;
 }
+/* ======================================================= */
+
+.sec-3 {
+    margin-left: 535px;
+}
+
+span {
+    color: #0E8784;
+}
+
+.sec-3__comment {
+    background: #2C343E;
+    color: white;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 800px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.sec-3__header {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.order-comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 9;
+    width: 690px;
+    font-size: 24px;
+}
+
+.createyourplan--butt{
+    background-color: #0E8784;
+    color: white;
+    border-radius: 6px;
+    width: 217px;
+    height: 48px;
+    border: none;
+    font-size: 18px;
+    margin-left: 684px;
+    margin-top: 40px;
+}
+
+/* ===================================================================================== */
+
+footer{
+    background-color: #2C343E;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 50px;
+    gap: 600px;
+}
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.menu2 ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.menu2 li{
+    color: white;
+    list-style: none;
+}
+
+.menu2 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nom-white{
+    width: 150px;
+}
