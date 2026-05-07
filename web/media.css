@@ -1,0 +1,192 @@
+/* =======================
+   1200px va kichik ekranlar (kichik laptop)
+======================= */
+@media (max-width: 1200px) {
+
+    main img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main--div--yozuv h1 {
+        font-size: 40px;
+    }
+
+    .main--div--yozuv p {
+        font-size: 16px;
+    }
+
+    .sec_1--div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mini-block--umumiy {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sec--3--map {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+/* =======================
+   992px (tablet landscape)
+======================= */
+@media (max-width: 992px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav--ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .main--div--yozuv {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main--div--yozuv h1 {
+        font-size: 34px;
+    }
+
+    .sec_2--div--h1 p {
+        font-size: 14px;
+    }
+
+    .sec-1--number-box {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .sec-2__div__umumiy-savollar {
+        padding: 0 20px;
+    }
+
+    .stckiy-topics {
+        display: none; /* mobile/tabletda sidebar yashiriladi */
+    }
+}
+
+/* =======================
+   768px (tablet portrait)
+======================= */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .createyourplan--butt {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .cofee--packages img {
+        width: 80px;
+    }
+
+    .sec_2--div--h1 h2 {
+        font-size: 26px;
+    }
+
+    .multiple-choice {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sec_2__div--answerblock {
+        width: 100%;
+    }
+}
+
+/* =======================
+   576px (mobile)
+======================= */
+@media (max-width: 576px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    .nav--ul li a {
+        font-size: 14px;
+    }
+
+    .main--div--yozuv h1 {
+        font-size: 24px;
+    }
+
+    .main--div--yozuv p {
+        font-size: 13px;
+    }
+
+    main img {
+        height: auto;
+    }
+
+    .sec_1--div--yozuv {
+        text-align: center;
+    }
+
+    .sec--2--foto {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .menu2 ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* =======================
+   400px (kichik telefonlar)
+======================= */
+@media (max-width: 400px) {
+
+    .main--div--yozuv h1 {
+        font-size: 20px;
+    }
+
+    .main--div--yozuv p {
+        font-size: 12px;
+    }
+
+    .createyourplan--butt {
+        width: 100%;
+    }
+
+    .sec_2__div--answerblock h2 {
+        font-size: 16px;
+    }
+
+    .sec_2__div--answerblock p {
+        font-size: 12px;
+    }
+}
