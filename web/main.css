@@ -76,6 +76,16 @@ main{
     font-size: 18px;
 }
 
+img{
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
 /* ==================================================================================================================================== */
 .sec_1 {
     display: flex;
@@ -83,6 +93,18 @@ main{
     gap: 100px;
     margin-left: 190px;
     margin-top: 50px;
+    animation-name: sec-1-cofee;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+
+@keyframes sec-1-cofee{
+     0% {
+    opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .sec_1 h3 {

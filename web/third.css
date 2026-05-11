@@ -8,6 +8,16 @@ body p{
     font-weight: 400;
 }
 
+img{
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
 nav{
     display: flex;
     flex-direction: row;
